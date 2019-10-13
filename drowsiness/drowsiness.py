@@ -32,7 +32,7 @@ args = vars(ap.parse_args())
 # frames the eye must be below the threshold for to set off the
 # alarm
 EYE_AR_THRESH = 0.2
-EYE_AR_CONSEC_FRAMES = 35
+EYE_AR_CONSEC_FRAMES = 40
 FACE_FRAMES = 16
 # EYE_AR_THRESH = 0.2
 # EYE_AR_CONSEC_FRAMES = 35
@@ -102,6 +102,8 @@ while True:
                             t = Thread(target=alarm, args=(args["alarm"],))
                             t.daemon = True
                             t.start()
+                            # time.sleep(3)
+                            t.join()
                     cv2.putText(frame,"DROWSINESS ALERT",(10,30), cv2.FONT_HERSHEY_COMPLEX, 0.7,(0,0,255), 2)
             else:
                 counter_eye = 0
