@@ -13,3 +13,9 @@ rate of blinking etc.
 
 ## Plans to do
 -> to complete the ML part using open cv and then to redo evereything again using deeplearning and find which is better.
+
+https://www.youtube.com/watch?v=VWUgkcX_KoY&list=PL6Yc5OUgcoTlvHb5OfFLUJ90ofBuoU5g8
+
+
+## landmark 69
+![landmarks](facial_landmarks_68markup.jpg)
