@@ -70,6 +70,7 @@ while True:
                     t = Thread(target=alarm, args=(args["alarm"],))
                     t.daemon = True
                     t.start()
+                    t.join()
                     cv2.putText(frame,"NO FACE",(10,30), cv2.FONT_HERSHEY_COMPLEX, 0.7,(0,0,255), 2)  
     else:
         counter=0
