@@ -1,0 +1,20 @@
+{
+  "name": "extension_rabbit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  },
+  "description": ""
+}
